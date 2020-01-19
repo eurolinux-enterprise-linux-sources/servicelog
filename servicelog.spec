@@ -1,6 +1,6 @@
 Name:           servicelog
 Version:        1.1.11
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Servicelog Tools
 
 Group:          System Environment/Base
@@ -53,6 +53,9 @@ help2man -s 8 -N $RPM_BUILD_ROOT/%{_sbindir}/slog_common_event > $RPM_BUILD_ROOT
 %{_mandir}/man[18]/*.[18]*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.11-2
+- Mass rebuild 2013-12-27
+
 * Tue May 21 2013 Vasant Hegde <hegdevasant@linux.vnet.ibm.com> - 1.1.11
 - Update to latest upstream 1.1.11
 
